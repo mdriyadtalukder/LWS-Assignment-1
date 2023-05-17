@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/redux@4.2.1/dist/redux.min.js"></script>
+
+</head>
+
+<body>
+    <section class="parent">
+        <div class="header">
+            <img src="/My/New folder/html/image/favicon.png" alt="" srcset="">
+            <h1>SCOREBOARD</h1>
+            <h4>Total</h4>
+        </div>
+        <hr class="hr">
+        <section class="all-match ">
+            <section class="match ">
+                <div id="ch">
+                    <i class="fa-regular icn fa-circle-xmark"></i>
+                    <h1>MATCH 1</h1>
+                </div>
+                <div id="ch-2">
+                    <form class="incm">
+                        <p>Increment</p>
+                        <input data-id=5 name="inc" class="incr" type="text">
+                    </form>
+                    <form class="decm">
+                        <p>Decrement</p>
+                        <input data-id=5 name="dec" class="decr " type="number">
+                    </form>
+
+
+                    <button>0</button>
+
+                </div>
+                <div>
+                    <span>Com</span>
+                    <button class="bttn" data-cid="1">Complete</button>
+                </div>
+            </section>
+        </section>
+        <hr class="hr">
+        <section class="sec">
+            <button class="btn">Add Another Match</button>
+            <p class="pp"><i class="fa-solid fa-arrows-rotate ii"></i> Reset</p>
+
+        </section>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

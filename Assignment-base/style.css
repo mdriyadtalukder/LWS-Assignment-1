@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.hr{
+    color: black;
+}
+.parent {
+    width: 60%;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 15px;
+    align-items: center;
+}
+.all-match{
+    min-height: 66px;
+    padding: 0.5rem 0;
+    background-color: blueviolet;
+
+
+}
+.match {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: blueviolet;
+}
+#ch-2,
+#ch {
+    display: flex !important;
+    gap: 32px;
+    align-items: center;
+}
+
+p {
+    font-size: 13px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+i {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 9%;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: navajowhite;
+}
+
+span{
+    color: white;
+    font-weight: bold;
+}
+.gn{
+    color: goldenrod;
+    font-weight: bold;
+}
+.pp {
+    align-items: center;
+    color: blue;
+    cursor: pointer;
+
+}
+
+.ii {
+    color: blue;
+}
+
+
+img {
+    width: 5%;
+}
+
+@media only screen and (max-width:688px) {
+    body {
+
+        width: 100%;
+    }
+
+    .all-match,
+    .parent {
+        width: 100% !important;
+    }
+
+    #ch-2 {
+        padding-left: 26px !important;
+    }
+
+
+
+}
+
+/*------------For Tablet Devices---------------------------------*/
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    body {
+
+        width: 100%;
+    }
+
+    .all-match,
+    .parent {
+        width: 100% !important;
+    }
+
+
+}
